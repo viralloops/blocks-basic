@@ -135,9 +135,10 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
     bm.add('column1', {
       ...commonBlockProps,
       label: opts.labelColumn1,
-      media: `<svg viewBox="0 0 24 24">
-        <path fill="currentColor" d="M2 20h20V4H2v16Zm-1 0V4a1 1 0 0 1 1-1h20a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1Z"/>
-      </svg>`,
+      media: `<svg width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="0.5" width="59" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+</svg>
+`,
       content: `<div ${attrsRow}>
         <div ${attrsCell}></div>
       </div>
@@ -155,9 +156,11 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
     bm.add('column2', {
       ...commonBlockProps,
       label: opts.labelColumn2,
-      media: `<svg viewBox="0 0 23 24">
-        <path fill="currentColor" d="M2 20h8V4H2v16Zm-1 0V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1ZM13 20h8V4h-8v16Zm-1 0V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1Z"/>
-      </svg>`,
+      media: `<svg width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="0.5" width="27" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+<rect x="33" y="0.5" width="27" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+</svg>
+`,
       content: `<div ${attrsRow}>
         <div ${attrsCell}></div>
         <div ${attrsCell}></div>
@@ -176,9 +179,12 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
     bm.add('column3', {
       ...commonBlockProps,
       label: opts.labelColumn3,
-      media: `<svg viewBox="0 0 23 24">
-        <path fill="currentColor" d="M2 20h4V4H2v16Zm-1 0V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1ZM17 20h4V4h-4v16Zm-1 0V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1ZM9.5 20h4V4h-4v16Zm-1 0V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1Z"/>
-      </svg>`,
+      media: `<svg width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="0.500122" width="16.3333" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+<rect x="22.3333" y="0.500122" width="16.3333" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+<rect x="43.6667" y="0.500122" width="16.3333" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+</svg>
+`,
       content: `<div ${attrsRow}>
         <div ${attrsCell}></div>
         <div ${attrsCell}></div>
