@@ -321,8 +321,7 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
       content: {
         type: 'div',
         style: {
-          ["margin-top"]: '40px',
-          ["margin-bottom"]: '40px',
+          ["height"]: '80px'
         },
         attributes: {
           class: 'container-fluid separator',
