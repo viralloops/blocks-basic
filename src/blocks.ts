@@ -307,4 +307,26 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
         style: { height: '350px' }
       }
     });
+
+    toAdd('separator') &&
+    bm.add('Separator', {
+      ...commonBlockProps,
+      label: opts.labelMap,
+      media: `<svg width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg);">
+<rect x="1" y="0.500122" width="16" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+<rect x="22" y="0.500122" width="38" height="49.0001" rx="4.5" stroke="#D9D9D9"/>
+</svg>
+
+`,
+      content: {
+        type: 'div',
+        style: {
+          marginTop: '90px',
+          marginBottom: '90px',
+        },
+        attributes: {
+          class: 'separator',
+        },
+      }
+    });
 }
