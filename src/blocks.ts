@@ -319,7 +319,7 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
       activate: true,
       content: {
         type: 'link',
-        attributes: { href: '#', target: '_self' },
+        attributes: { href: '#', target: '_self', class: 'gjs-img-container' },
         components: [{
           type: 'image',
           style: { color: 'black' }, // Consistent with the standalone image block
