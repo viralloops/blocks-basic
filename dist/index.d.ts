@@ -72,6 +72,11 @@ export type PluginOptions = {
 	 */
 	labelMap?: string;
 	/**
+	 * Image with Link label
+	 * @default 'Image with Link'
+	 */
+	labelImageLink?: string;
+	/**
 	 * Initial row height
 	 * @default 75
 	 */

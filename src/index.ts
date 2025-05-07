@@ -87,6 +87,12 @@ export type PluginOptions = {
   labelMap?: string;
 
   /**
+   * Image with Link label
+   * @default 'Image with Link'
+   */
+  labelImageLink?: string;
+
+  /**
    * Initial row height
    * @default 75
    */
@@ -104,7 +110,8 @@ const plugin: Plugin<PluginOptions> = (editor, opts = {}) => {
       'link',
       'image',
       'video',
-      'map'
+      'map',
+      'image-link'
     ],
     flexGrid: false,
     stylePrefix: 'gjs-',
@@ -120,6 +127,7 @@ const plugin: Plugin<PluginOptions> = (editor, opts = {}) => {
     labelVideo: 'Video',
     labelMap: 'Map',
     rowHeight: 75,
+    labelImageLink: 'Image with Link',
     ...opts
   };
 
